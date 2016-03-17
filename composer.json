@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ""
+        },
+        "psr-4": {
+            "Gtin\\": "src/Gtin/"
+        }
+    }
+}
